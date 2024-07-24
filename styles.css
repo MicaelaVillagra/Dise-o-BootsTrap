@@ -1,0 +1,95 @@
+:root {
+    --primary: #6209DB
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar .btn{
+    padding: .625rem 1.25rem !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.btn{
+    padding: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-right{
+    background-color: var(--primary) !important; 
+    color: var(--primary);
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+
+.content{
+    max-width: 500px;
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+}
+
+section{
+    height: 900px;
+}
+
+.call-to-action{
+    border-radius: 50px;
+}
+.call-to-action img{
+    max-width: 300px;
+}
+.cta-form{
+    width: 480px;
+}
+.cta-form .form-control{
+    min-height: 82px;
+}
+
+.cta-form .btn{
+    top: 12px;
+    right: 12px;
+
+}
+
+
+@media (max-width: 992px){
+    #navbar{
+        position: relative !important;
+    }
+    section{
+        height: unset;
+    }
+    .call-to-action img{
+        max-width: 100%;
+    }
+    .w-75{
+        width: 100%; !important
+    }
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
